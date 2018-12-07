@@ -1,14 +1,5 @@
-
 body {
   font-family: 'Montserrat', sans-serif;
-}
-
-/* Title Section */
-
-#title {
-  background-color: #ff4c68;
-  color: #FFF;
-  z-index: -3;
 }
 
 h1 {
@@ -17,14 +8,32 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+ font-family: "Montserrat";
+ font-size: 1.5rem;
+ font-weight: 700;
+
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat-Light";
+  font-weight: 500;
+}
+
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  color: #FFF;
+  z-index: -3;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
 
-
 /* Navigation Bar */
-
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-weight: bold;
   font-size: 2.5rem;
@@ -34,45 +43,42 @@ h1 {
   padding: 0 0 4.5rem;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-Light"
+  font-family: "Montserrat-Light";
+  font-weight: 500;
 }
 
 /* Downlaod Buttons */
-
 .download-btn {
   margin: 5% 3% 5% 0;
-
 }
 
 /* Title Image */
-
-.iphone{
+.iphone {
   width: 60%;
   transform: rotate(25deg);
 }
 
 /* Feature Section */
-
 #features {
+  padding: 7% 15%;
+}
 
+.feature-box {
+  text-align: center;
+  padding: 4%;
 }
 
 .feature-icon {
   color: #ef8172;
-  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
-#features h3 {
-  font-family: "Montserrat-Bold";
-  font-size: 1.5rem;
-}
-
-#features p {
-  color: #8f8f8f;
+.feature-icon:hover {
+  color: #ff4c68;
 }
