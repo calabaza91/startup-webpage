@@ -30,11 +30,10 @@ p {
 #title {
   background-color: #ff4c68;
   color: #FFF;
-  z-index: -3;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 12% 9%;
 }
 
 /* Navigation Bar */
@@ -66,11 +65,15 @@ p {
 .iphone {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right:30%;
 }
 
 /* Feature Section */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
