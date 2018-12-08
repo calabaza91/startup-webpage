@@ -46,8 +46,9 @@ background-color: #fff;
 /* Navigation Bar */
 .navbar-brand {
   font-family: "Ubuntu";
-  font-weight: bold;
   font-size: 2.5rem;
+  font-weight: bold;
+
 }
 
 .navbar {
@@ -59,8 +60,8 @@ background-color: #fff;
 }
 
 .nav-link {
-  font-size: 1.2rem;
   font-family: "Montserrat-Light";
+  font-size: 1.2rem;
 }
 
 /* Title Section */
@@ -71,10 +72,10 @@ background-color: #fff;
 }
 
 .iphone {
-  width: 60%;
-  transform: rotate(25deg);
   position: absolute;
   right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
 }
 
 /* Feature Section */
@@ -106,9 +107,9 @@ background-color: #fff;
 }
 
 .testimonials-img {
-  width: 10%;
   border-radius: 100%;
   margin: 20px;
+  width: 10%;
 }
 
 .testimonial-text {
@@ -123,8 +124,8 @@ background-color: #fff;
 }
 
 .press-logo {
-  width: 15%;
   margin: 20px 20px 50px;
+  width: 15%;
 }
 
 /* Pricing Section */
