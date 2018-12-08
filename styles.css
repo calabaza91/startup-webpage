@@ -134,6 +134,33 @@ p {
   padding: 3% 2%;
 }
 
+/* Call to Action Section */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.social-media {
+  padding: 20px 10px;
+}
+
 /* Media Queries */
 
 @media (max-width: 1028px){
@@ -144,7 +171,7 @@ p {
   .iphone {
     position: static;
     transform: rotate(0);
-  
+
   }
 }
 
