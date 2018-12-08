@@ -133,3 +133,23 @@ p {
 .pricing-col {
   padding: 3% 2%;
 }
+
+/* Media Queries */
+
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  
+  }
+}
+
+@media (max-width: 1028px) and (min-width: 992px){
+  h1{
+    text-align: left;
+  }
+}
